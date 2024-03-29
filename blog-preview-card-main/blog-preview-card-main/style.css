@@ -1,0 +1,127 @@
+@font-face {
+    font-family: bold;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5rem 2rem;
+    font-size: 16px;
+    
+}
+
+.container  {
+    background-color:  hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px black;
+    border: 1px solid black;
+    width: 365px;
+    height: 565px;
+    padding: 1.5rem;
+    margin: 3rem auto;
+
+}
+
+.container div:first-child img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+span {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 3px 8px;
+    margin: 15px 0px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+h1{
+    color: hsl(0, 0%, 7%);
+    margin: 10px 0px 10px;
+    cursor: pointer;
+  
+
+    
+}
+h1:hover{
+    background-color: hsl(47, 88%, 63%);
+}
+
+
+p {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+    font-size: 16px;
+    
+}
+.greg {
+    color: black;
+    margin-left: 4px;
+    font: bold;
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 50%);
+
+}
+
+.container-3 img {
+    width: 2.5rem;
+}
+.container-3 {
+    margin: 5rem 0rem 0rem;
+}
+
+.container-3 {
+    display: flex;
+    align-items: center;
+}
+.attribution { 
+
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+
+
+
+ /*
+
+
+
+ Media Queries
+
+
+ */
+
+ @media screen and (max-width: 500px) {
+
+    .container  {
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .container div:first-child img {
+        width: 100%;
+    }
+    
+ }
